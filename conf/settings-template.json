@@ -1,0 +1,31 @@
+{
+  "global": {
+    "base_url": "http://__DOMAIN____PATH__",
+    "title": "This is a Title",
+    "descriptions": "Because it should be easy.",
+    "background": "/assets/images/global/default-bg.jpg",
+    "private": "true",
+    "renderOnSave": "false",
+    "theme": "fipamo-default",
+    "display_limit": 5,
+    "last_backup": null,
+    "externalAPI": "false",
+    "dynamicRender": "false"
+  },
+  "library_stats": {
+    "current_index": 1
+  },
+  "email": {
+    "active": "none",
+    "smtp": {
+      "domain": "",
+      "email": "",
+      "password": ""
+    },
+    "mailgun": {
+      "domain": "",
+      "api-key": ""
+    }
+  },
+  "menu": []
+}

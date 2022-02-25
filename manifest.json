@@ -1,0 +1,49 @@
+{
+    "name": "Fipamo",
+    "id": "fipamo",
+    "packaging_format": 1,
+    "description": {
+        "en": "Easy to use no data blog platform",
+        "fr": "Plate-forme de blog sans données facile à utiliser"
+    },
+    "version": "2.4.1~ynh1",
+    "url": "https://fipamo.blog",
+    "upstream": {
+        "license": "free",
+        "website": "https://fipamo.blog",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "code": "https://code.playvicio.us/Are0h/Fipamo"
+    },
+    "license": "free",
+    "maintainer": {
+        "name": "John doe",
+        "email": "john.doe@example.com"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/fipamo",
+                "default": "/fipamo"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
