@@ -88,7 +88,7 @@ ynh_add_fpm_config
 #=================================================
 ynh_script_progression --message="Installing $app with Composer..." --weight=3
 
-ynh_install_composer --phpversion=$phpversion --workdir=$final_path --install_args="--optimize-autoloader"
+ynh_install_composer --install_args="--optimize-autoloader"
 
 #=================================================
 # ADD A CONFIGURATION

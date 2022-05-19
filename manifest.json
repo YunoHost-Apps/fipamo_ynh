@@ -6,7 +6,7 @@
         "en": "Easy to use no data blog platform",
         "fr": "Plate-forme de blog sans données facile à utiliser"
     },
-    "version": "2.4.1~ynh1",
+    "version": "2.5.0~ynh1",
     "url": "https://fipamo.blog",
     "upstream": {
         "license": "free",

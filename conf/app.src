@@ -1,5 +1,5 @@
-SOURCE_URL=https://code.playvicio.us/Are0h/Fipamo/archive/b2.4.1.tar.gz
-SOURCE_SUM=964f0f9db0461f6d1168f99de689b84d3c1b03a4bf8f91027a047f0008bde9d3
+SOURCE_URL=https://code.playvicio.us/Are0h/Fipamo/archive/b2.5.0.tar.gz
+SOURCE_SUM=e0e341a4a406d968d4bf0a2b77c271effa19bed1fcf623d3cd47f03f6848e85f
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

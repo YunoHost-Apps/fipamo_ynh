@@ -7,7 +7,7 @@
 YNH_PHP_VERSION="7.4"
 
 # Composer version
-YNH_COMPOSER_VERSION="2.1.3"
+YNH_COMPOSER_VERSION="2.3.3"
 
 #=================================================
 # PERSONAL HELPERS
