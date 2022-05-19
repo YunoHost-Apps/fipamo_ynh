@@ -1,7 +1,7 @@
 {
   "global": {
     "base_url": "http://__DOMAIN__",
-    "title": "This is a Title",
+    "title": "__TITLE__",
     "descriptions": "Because it should be easy.",
     "background": "/assets/images/global/default-bg.jpg",
     "private": "true",
@@ -18,8 +18,8 @@
   "email": {
     "active": "none",
     "smtp": {
-      "domain": "",
-      "email": "",
+      "domain": "localhost",
+      "email": "__EMAIL__",
       "password": ""
     },
     "mailgun": {

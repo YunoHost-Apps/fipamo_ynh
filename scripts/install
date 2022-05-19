@@ -28,6 +28,8 @@ domain=$YNH_APP_ARG_DOMAIN
 path_url="/"
 is_public=$YNH_APP_ARG_IS_PUBLIC
 phpversion=$YNH_PHP_VERSION
+title=$YNH_APP_ARG_TITLE
+email=$(ynh_user_get_info --username=$admin --key=mail)
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -49,6 +51,8 @@ ynh_script_progression --message="Storing installation settings..." --weight=1
 
 ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
+ynh_app_setting_set --app=$app --key=title --value=$title
+ynh_app_setting_set --app=$app --key=email --value=$email
 
 #=================================================
 # INSTALL DEPENDENCIES
@@ -106,10 +110,10 @@ ynh_install_composer --install_args="--optimize-autoloader"
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/settings-template.json" --destination="$final_path/config/init/settings-template.json"
+ynh_add_config --template="../conf/settings-template.json" --destination="$final_path/config/init/settings.json"
 
-chmod 650 "$final_path/config/init/settings-template.json"
-chown $app:$app "$final_path/config/init/settings-template.json"
+chmod 650 "$final_path/config/init/settings.json"
+chown $app:$app "$final_path/config/init/settings.json"
 
 #=================================================
 # SETUP SSOWAT
