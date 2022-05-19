@@ -102,16 +102,6 @@ ynh_script_progression --message="Installing $app with Composer..." --weight=3
 ynh_install_composer --install_args="--optimize-autoloader"
 
 #=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
-
-ynh_add_config --template="../conf/settings-template.json" --destination="$final_path/config/init/settings-template.json"
-
-chmod 650 "$final_path/config/init/settings-template.json"
-chown $app:$app "$final_path/config/init/settings-template.json"
-
-#=================================================
 # SETUP SSOWAT
 #=================================================
 ynh_script_progression --message="Configuring permissions..." --weight=1
