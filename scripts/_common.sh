@@ -4,10 +4,12 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="7.4"
+YNH_PHP_VERSION="8.0"
 
 # Composer version
 YNH_COMPOSER_VERSION="2.3.3"
+
+pkg_dependencies="php${YNH_PHP_VERSION}-fpm php${YNH_PHP_VERSION}-cli"
 
 #=================================================
 # PERSONAL HELPERS
