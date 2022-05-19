@@ -111,10 +111,10 @@ ynh_install_composer --install_args="--optimize-autoloader"
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/settings-template.json" --destination="$final_path/config/init/settings.json"
+ynh_add_config --template="../conf/settings-template.json" --destination="$final_path/config/settings.json"
 
-chmod 650 "$final_path/config/init/settings.json"
-chown $app:$app "$final_path/config/init/settings.json"
+chmod 650 "$final_path/config/settings.json"
+chown $app:$app "$final_path/config/settings.json"
 
 #=================================================
 # SETUP SSOWAT
