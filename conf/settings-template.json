@@ -1,6 +1,6 @@
 {
   "global": {
-    "base_url": "http://__DOMAIN____PATH__",
+    "base_url": "http://__DOMAIN__",
     "title": "This is a Title",
     "descriptions": "Because it should be easy.",
     "background": "/assets/images/global/default-bg.jpg",
