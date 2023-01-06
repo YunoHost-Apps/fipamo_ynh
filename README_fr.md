@@ -33,7 +33,7 @@ to finish the installation go to `yourdomain.tld/dashboard`
 
 * Site officiel de l'app : <https://fipamo.blog>
 * Documentation officielle de l'admin : <https://yunohost.org/packaging_apps>
-* Dépôt de code officiel de l'app : <https://code.playvicio.us/Are0h/Fipamo>
+* Dépôt de code officiel de l'app : <https://koodu.ubiqueros.com/are0h/Fipamo>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_fipamo>
 * Signaler un bug : <https://github.com/YunoHost-Apps/fipamo_ynh/issues>
 
